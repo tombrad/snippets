@@ -1,0 +1,10 @@
+<div style="float: left;"><img style="width: 53px; height:48px;" src="http://1.bp.blogspot.com/_dsEG33PDaHw/TJvkySNSsAI/AAAAAAAAAXo/xwOjSE9l92c/s1600/stats.png"/></div>
+<div style=" float: left; text-align: left; font-size:12px;">
+<script> function DiasOnline(Dia, Mes, Year, Texto) { Meses = new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"); Hoy = new Date(); Inicio = Date.parse(Meses[Mes - 1] + " " + Dia + " " + Year); Resultado = Math.round((Hoy.getTime() - Inicio) / 86400000); document.write(Resultado + " " + Texto); } DiasOnline(22, 1, 2009, "" );</script> días online<br/>
+<script style="text/javascript">
+function showpostcount(json) {
+document.write(parseInt(json.feed.openSearch$totalResults.$t,10));
+}</script>
+<script src="http://bradanovic.blogspot.com/feeds/posts/default?alt=json-in-script&amp;callback=showpostcount"></script> entradas
+<br/>
+<script src="http://bradanovic.blogspot.com/feeds/comments/default?alt=json-in-script&amp;callback=showpostcount"></script> comentarios</div><div style="clear: both;"></div>
